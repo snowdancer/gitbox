@@ -1,0 +1,21 @@
+{
+  "name": "myrobot",
+  "version": "0.1",
+  "private": true,
+  "scripts": {
+    "start": "bin/hubot run"
+  },
+  "author": "cx.zhang",
+  "keywords": [
+    "hubot",
+    "direct",
+    "bot",
+    "daab"
+  ],
+  "description": "test home",
+  "dependencies": {
+    "forever": "^4.0.0",
+    "lisb-hubot": "^3.3.2",
+    "lisb-hubot-redis-brain": "^1.0.0"
+  }
+}

@@ -1,1 +1,6 @@
 web: bin/hubot run
+heroku login
+heroku create
+heroku config:set HUBOT_DIRECT_TOKEN=dXbo53sGrcDRxFJY1zJKn3cqAnVLDMgeQq2lU51M35iQwcQmCwJeHV8U2jotJUqAmU6qbcFjqEhEDy22XhplZwR3wYgjN
+git push heroku master
+heroku addons:add rediscloud

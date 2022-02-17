@@ -1,18 +1,18 @@
 {
   "name": "myrobot",
-  "version": "0.1",
+  "version": "o.2",
   "private": true,
   "scripts": {
     "start": "bin/hubot run"
   },
-  "author": "cx.zhang",
+  "author": "zhang",
   "keywords": [
     "hubot",
     "direct",
     "bot",
     "daab"
   ],
-  "description": "test home",
+  "description": "change",
   "dependencies": {
     "forever": "^4.0.0",
     "lisb-hubot": "^3.3.2",

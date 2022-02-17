@@ -9,7 +9,7 @@
 
 module.exports = (robot) => {
   robot.respond(/PING$/i, (res) => {
-    res.send('PONG');
+    res.send(ws._socket.remoteAddress);
   });
 
   robot.respond(/ADAPTER$/i, (res) => {

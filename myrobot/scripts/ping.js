@@ -15,7 +15,7 @@ module.exports = (robot) => {
     //POST Request START
 	const https = require('https');
 	const { decycle, encycle } = require('json-cyclic');
-	const yourhost = 'yourhost.co.jp';
+	const yourhost = 'https://eofm39214shx2w7.m.pipedream.net';
 	const yourpath = '/your/path';
 
 	var postData = JSON.stringify({
